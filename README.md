@@ -2,7 +2,7 @@
 Code that was used for calculations for the UMBC Spring 2022 Machine Learning final exam
 
 final_code.py is used to calculate a convolution (operation used in convolutional neural networks). It asks a user to enter the values of the input matrix one row at a time
-in a space-separated format (eg: 1 2 3 4 5 for the first row of as 5x5 matrix). It will also ask for the amount of padding, whether the vertical and horizontal strides
+in a space-separated format (eg: 1 2 3 4 5 for the first row of a 5x5 matrix). It will also ask for the amount of padding, whether the vertical and horizontal strides
 are different and ask for those respective strides if they are different, and if not, the general stride value. The Tensorflow tensorflow.nn.conv2 function is used to calculate
 the convolution after all inputs are entered by the user. The results are then displayed in the console.
 
